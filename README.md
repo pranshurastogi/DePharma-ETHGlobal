@@ -27,5 +27,5 @@ DePharma is an ecosystem which lets you do -
 ## Team -
 
 1. [Pranshu Rastogi](https://github.com/pranshurastogi)
-2. [Manul Singh](https://github.com/JeremyConnor)
+2. [Manul Singh Parihar](https://github.com/JeremyConnor)
 3. [Ishita Rastogi](https://github.com/ishitarastogi)
