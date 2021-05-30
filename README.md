@@ -1,5 +1,5 @@
 # DePharma-ETHGlobal
-DePharma ecosystem for providing, scheduling and processing vaccines and drugs.
+DePharma is an ecosystem for providing, scheduling and processing vaccines, drugs and medical devices.
 
 ![DePharma Logo](./Images/DePharmaLogo.jpeg)
 
@@ -8,9 +8,9 @@ DePharma ecosystem for providing, scheduling and processing vaccines and drugs.
 
 ## What we're building - 
 
-DePharma is an ecosystem which lets you do -
+DePharma is an ecosystem with the following features -
 
-1. Vaccine store- Buy vaccine with unlock protocol.
+1. Vaccine store- Buy vaccine using unlock protocol.
 2. Consult a doc - With decentralised storage system like IPFS and Live peer, interact with doctor and be the owner of your documents solely. After the successful prescription, you can buy the prescribed drugs from the platform.
 3. Buy the essential healthcare equipments - Marketplace to buy the essential equipments like  [Masks, Face shield, Gloves, etc.]
 4. Fundraising raffle - Create raffle fundraising event with POAP.
@@ -20,11 +20,11 @@ DePharma is an ecosystem which lets you do -
 
 ## Future of this project - 
 
--> We're trying to build event based registeration of vaccine and providing unique NFT once person get vaccinated. Currently, POAP doesn't provide external use of API's. so we have to restrict ourself with the buying process only.
+-> We're trying to build event based registeration of vaccine by providing unique NFT to every user once he/she gets vaccinated. With POAP itself being under development, we can collaborate with it in near future to implement the exposable APIs and thus create healthcare related community polls and start fundraiser events for charity.
 
--> Integration of Livepeer for processing the video's for the consultation and the user will hold the sole access rights of the viewing and transfer [Will be enabled from smart contract].
+-> Integrting the platform with livepeer for users to go on a one-to-one consultation with a doctor. The user will also hold the sole access rights of viewing and transferring his documents and videos [Will be enabled from smart contract].
 
--> Onboarding of users and provides authenticated news that will get validated by the validators.
+-> Onboarding of users and providing authentic news regulated by the validators.
 
 
 ## Tools and technologies used - 
