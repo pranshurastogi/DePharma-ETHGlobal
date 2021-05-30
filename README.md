@@ -4,7 +4,7 @@ DePharma ecosystem for providing, scheduling and processing vaccines and drugs.
 ![DePharma Logo](./Images/DePharmaLogo.jpeg)
 
 
-# Project Name  = ***DePharma***
+# Project Name  : ***DePharma***
 
 ## What we're building - 
 
@@ -15,15 +15,26 @@ DePharma is an ecosystem which lets you do -
 3. Buy the essential healthcare equipments - Marketplace to buy the essential equipments like  [Masks, Face shield, Gloves, etc.]
 4. Fundraising raffle - Create raffle fundraising event with POAP.
 5. Create POLL - Create a Poll with POAP.
+
+![Architecture Logo](./Images/architect.png)
+
+## Future of this project - 
+
+-> We're trying to build event based registeration of vaccine and providing unique NFT once person get vaccinated. Currently, POAP doesn't provide external use of API's. so we have to restrict ourself with the buying process only.
+
+-> Integration of Livepeer for processing the video's for the consultation and the user will hold the sole access rights of the viewing and transfer [Will be enabled from smart contract].
+
+-> Onboarding of users and provides authenticated news that will get validated by the validators.
+
+
 ## Tools and technologies used - 
 
 1. [Unlock Protocol](https://unlock-protocol.com/)
 2. [POAP - The Proof of Attendance Protocol](https://www.poap.xyz/)
-3. [LivePeer](https://livepeer.org/)
-4. [Pinata](https://pinata.cloud/)
-5. Gatsby
-6. React js
-7. Node/ Express
+3. [Pinata](https://pinata.cloud/)
+4. Gatsby
+5. React js
+6. Node/ Express
 
 ## Team -
 
