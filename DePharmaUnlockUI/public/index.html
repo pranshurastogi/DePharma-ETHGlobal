@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DePharma</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+ 
+    <!-- <script type="text/javascript">
+        function redirect()
+        {
+        var url = "https://www.google.com";
+        window.location(url);
+        }
+        </script> -->
+        <script>
+          (function(d, s) {
+            var js = d.createElement(s),
+          
+              sc = d.getElementsByTagName(s)[0];
+            js.src = "https://paywall.unlock-protocol.com/static/unlock.latest.min.js";
+            console.log("js");
+            sc.parentNode.insertBefore(js, sc);
+          }(document, "script"));
+        </script>
+        
+       <script>
+          console.log("js")
+          var unlockProtocolConfig = {
+            network: 4, // Network ID (1 is for mainnet, 4 for rinkeby... etc)
+            locks: {
+              '0x9a45138df575fdE2E5C7D5d8DC8c4bf6382a4858': { // 0xabc is the address of a lock.
+                name: 'Vaccines',
+                network: 4 // you can customize the network for each lock
+              }// you can add as many locks as you want.
+            },
+            icon: 'https://app.unlock-protocol.com/static/images/svg/default.svg', 
+            callToAction: {
+              default: 'This content is locked. Pay with cryptocurrency to access it!',
+              expired: 'This is what is shown when the user had a key which is now expired',
+              pending: 'This is the message shown when the user sent a transaction to purchase a key which has not be confirmed yet',
+              confirmed: 'This is the message shown when the user has a confirmed key',
+              noWallet: 'This is the message shown when the user does not have a crypto wallet which is required...',
+            },
+            referrer: '0x9147BDf9aaca01B5f2680633e254a9776ecB10e5' // Address of the referrer who will earn UDT governance tokens if the transaction is elligible.
+           
+          }
+         
+          </script>
+
+</head>
+<body>
+
+    <nav class="navbar backgrounds">
+        <ul class="nav-list">
+            <div class="logo"><img src="/images/logo.jpeg" alt="Logo"></div>
+            <h1 style="font-size:50px ; margin: auto; color:pink">DePharma</h1>
+            
+        </ul>
+      
+    </nav>
+    <div class="wrapper">
+      
+       <div class="cards_wrap background">
+         <div class="card_item">
+           <div class="card_inner">
+             <div class="card_top">
+               <img src="/images/vaccine.jpg" alt="car" />
+             </div>
+             <div class="card_bottom">
+               <div class="card_category">
+                <b>Vaccine & Medical Equipments</b> 
+               </div>
+              
+               <div class="card_creator">
+                <p class="unlock-content locked"></br>Make payment to buy the Vaccine & Medical equip.🔒</br> </p>
+                <p class="unlock-content unlocked">Voila!! Successfully brought :) 🎉</p>
+                   <p class="unlock-content locked" onclick="window.unlockProtocol && window.unlockProtocol.loadCheckoutModal()"> <button >Buy</button></p>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="card_item">
+           <div class="card_inner">
+             <div class="card_top">
+               <img src="/images/index.jpeg" alt="car" />
+             </div>
+             <div class="card_bottom">
+               <div class="card_category">
+                <b>Medicines</b> 
+                <p style="text-transform: capitalize;"> Place to consult a doc and buy medcines.</p>
+               </div>
+              
+               <div class="card_creator">
+                <p>  <button id="myButton" >Go to Med store</button></p>
+               </div>
+             </div>
+           </div>
+         </div>
+        
+         <div class="card_item">
+           <div class="card_inner">
+             <div class="card_top">
+               <img src="/images/Fundraise.jpg" alt="car" />
+             </div>
+             <div class="card_bottom">
+               <div class="card_category">
+                <b>Fund Raise</b> 
+               </div>
+             
+               <div class="card_creator">
+                   <button id="fundRaise">Buy</button>
+               </div>
+             </div>
+           </div>
+         </div>
+         <div class="card_item">
+            <div class="card_inner">
+              <div class="card_top">
+                <img src="/images/pool3.jpg" alt="car" />
+              </div>
+              <div class="card_bottom">
+                <div class="card_category">
+                  <b>POLL</b>
+                </div>
+              
+                <div class="card_creator">
+                    <button  id="createPoll">Create POLL</button>
+                    <button id="viewPoll">View POLL</button>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+       </div>
+     </div>   
+ <div class="wrappers">
+     <h1> Team</h1>
+     <div class="our_team">
+         <div class="team_member">
+           <div class="member_img">
+              <img src="/images/Manul.png" alt="our_team">
+             <div class="social_media">
+                <div class="facebook item"><a href="https://www.linkedin.com/in/manul-singh-parihar-8a9790171/" target="_blank"><i class="fab fa-linkedin"></i></a></i></div>
+               
+              </div>
+           </div>
+           <h3>Manul Singh Parihar</h3>
+           <span>Full Stack Blockchain Developer</span>
+          
+         </div>
+         <div class="team_member">
+            <div class="member_img">
+              <img src="/images/Pranshu1.png" alt="our_team">
+              <div class="social_media">
+                <div class="facebook item"><a href="https://www.linkedin.com/in/rastogipranshu" target="_blank"><i class="fab fa-linkedin"></i></a></i></div>
+                <div class="twitter item"><a href="https://twitter.com/pranshu3196?s=09" target="_blank"></a><i class="fab fa-twitter"></a></i></div>
+                
+              </div>
+           </div>
+           <h3>Pranshu Rastogi</h3>
+           <span>Blockchain Developer</span>
+       </div>
+         <div class="team_member">
+            <div class="member_img">
+              <img src="/images/Ishita.png" alt="our_team">
+              <div class="social_media">
+                <div class="facebook item"><a href="https://www.linkedin.com/in/ishitarastogii/" target="_blank"><i class="fab fa-linkedin"></i></a></i></div>
+                <div class="twitter item"><a href="https://twitter.com/ishu_rastogii" target="_blank"></a><i class="fab fa-twitter"></a></i></div>
+              </div>
+           </div>
+           <h3> Ishita Rastogi</h3>
+           <span>Full Stack Blockchain Developer</span>
+       </div>
+        
+     </div>
+ </div>
+   
+    <footer class="BgFooter" >
+        <hr />
+        <p class="text-footer">
+       ETH GLOBAL HACKATHON SUBMISSION @2021
+        </p>
+    </footer>
+    <script type="text/javascript">
+      document.getElementById("myButton").onclick = function () {
+        window.open('https://depharmamedicine.gatsbyjs.io/', '_blank');
+      };
+      document.getElementById("fundRaise").onclick = function () {
+        window.open('https://poap.fun/raffle/new', '_blank');
+      };
+      document.getElementById("createPoll").onclick = function () {
+        window.open('https://poap.vote/create','_blank');
+      };
+      document.getElementById("viewPoll").onclick = function () {
+        window.open('https://poap.vote/','_blank');
+      };
+
+  </script>
+</body>
+<script src="scripts.js"></script>
+</html>

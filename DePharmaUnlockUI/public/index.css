@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.logo {
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo img {
+    width:33%;
+    border: 2px solid grey;
+    border-radius:50%;
+    
+}
+
+.navbar{
+    z-index: 1;
+display:flex;
+align-items:center;
+justify-content:center;
+
+top: 0;
+cursor: pointer;
+
+}
+
+.nav-list{
+    width: 70%;
+    display:flex;
+    align-items:center;
+    height: 100px;
+}
+
+.nav-list li{
+list-style: none;
+padding: 26px 30px;
+}
+
+.nav-list li a{
+text-decoration: none;
+color:white;
+}
+
+.nav-list li a:hover{
+    text-decoration:none;
+    color: gray;
+
+}
+
+
+.right-nav{
+    width: 30%;
+    text-align: right;
+
+    padding-right: 25px;
+    
+}
+#search{
+    padding:5px;
+    font-size:16px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.backgrounds{
+  background: rgba(20, 19, 19, 0.7) url(./images/vaccine.jpg) ;
+  background-size: cover;
+  height: 100%;
+  background-blend-mode: darken;
+  opacity: 0.8;
+  
+}
+.background{
+    background: rgba(20, 19, 19, 0.7) url(./images/Healthcare.jpg);
+    background-size: cover;
+    height: 100%;
+    background-blend-mode: darken;
+    opacity: 0.8;
+    
+}
+/* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    padding: 40px;
+    text-align: center;
+    font-family: arial;
+ 
+    margin: auto;
+    height: 45%;
+  } */
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .unlock-content {
+    display: none;
+  }
+  
+  .unlock-content .locked {
+    display: none;  
+  }
+  
+  .unlock-content .unlocked {
+    display: none;
+    
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+
+
+.box-main{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    max-width: 50%;
+    margin: auto;
+    height: 85%;
+}
+.firstHalf{
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.secondHalf img{
+    width:60%;
+    border: 4px solid grey;
+    border-radius: 150px;
+   
+   float:right;
+    position: sticky;
+   
+}
+.big-text{
+font-size:32px;
+padding-bottom: 15px;
+}
+.text-small{
+    padding-bottom: 15px;
+    font-size:18px;
+
+}
+.btn{
+  padding:8px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius:8px;
+  font-size:18px;  
+  background: none;
+  color:white;
+  cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+.btn-dark{
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border: 2px solid rgb(7, 7, 7);
+}
+.proj-heading{
+text-align: center;
+margin-top: 80px;
+margin-bottom: 0px;
+font-size: 48px;
+color: rgb(15, 94, 139);
+}
+.section{
+
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    
+    margin: auto;
+}
+.left{
+    height: 100px;
+    flex-direction: row-reverse;
+}
+.sectionTag{
+    padding: 16px 0;
+    font-size: 22px;
+   
+}
+.paras{
+    padding: 0px 65px ;
+}
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 19px;
+}
+.contact{
+    
+    margin-top: 99px;
+    background-color: rgb(248, 246, 242);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+
+}
+.text-center{
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.form{
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 11px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin: 12px 0;
+    padding: 15px 13px;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555 url;
+}
+.wrappers{
+  margin-top: 10px;
+  text-align: center;
+
+  background-color: #363302;
+  
+}
+
+.wrappers h1{
+  font-family: 'Yatra One', cursive;
+  font-size: 48px;
+  color:white;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #fff;
+  padding: 20px 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #e9e5fa;  
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 10px;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+   transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab{
+  color: #8c7ae6;
+  font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media{
+  transform: scale(1);
+}
+
+.BgFooter{
+   
+    background-color: rgb(15, 15, 15);
+}
+img {
+    display: block;
+    width: 90%;
+    height: 100%;
+  }
+  
+  .wrapper {
+    width: 100%;
+    margin:  auto;
+  }
+  
+  .cards_wrap {
+ 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card_creator button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    
+    .card_creator button:hover {
+      opacity: 0.7;
+    }
+  .cards_wrap .card_item {
+    width: 25%;
+    padding: 10px;
+   margin:auto;
+  }
+  
+  .cards_wrap .card_inner {
+    background: #fff;
+  }
+  
+  .cards_wrap .card_top {
+    width: 100%;
+    min-height: 225px;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+  
+  .cards_wrap .card_bottom {
+    padding: 15px;
+  }
+  
+  .cards_wrap .card_bottom .card_category {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .cards_wrap .card_bottom .card_info {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px dashed #0071bc;
+  }
+  
+  .cards_wrap .card_bottom .card_info .title {
+    color: #0071bc;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* .cards_wrap .card_bottom .card_creator {
+    text-align: center;
+  } */
+  
+  @media (max-width: 1024px) {
+    .cards_wrap .card_item {
+      width: 33.3%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cards_wrap .card_item {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 528px) {
+    .cards_wrap .card_top {
+      height: auto;
+    }
+    .cards_wrap .card_item {
+      width: 100%;
+    }
+  }
