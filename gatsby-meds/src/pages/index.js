@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     // backgroundColor: 'white',
-    backgroundColor: '#16161a',
+    backgroundColor: '#eedfcc',
     // height: "100vh",
     marginTop: theme.spacing(4),
     flex: 1,
@@ -46,7 +46,7 @@ const IndexPage = (props) => {
   }
 
   return (
-    <div style={{width: '100vw', height: '100vh', flexGrow: 1, backgroundColor: '#16161a'}}>
+    <div style={{width: '100vw', height: '100vh', flexGrow: 1, backgroundColor: '#eedfcc'}}>
     <NavBar />
     <div className={classes.root}>
       <main className={classes.content}>

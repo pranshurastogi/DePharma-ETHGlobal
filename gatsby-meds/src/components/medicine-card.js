@@ -15,22 +15,25 @@ const useStyles = makeStyles((theme) => ({
     height: '35vw',
     // maxWidth: 280,
     // maxHeight: 300,
-    backgroundColor: '#242629',
+    // backgroundColor: '#242629',
+    backgroundColor: 'white',
     raised: true,
     // backgroundColor: '#16161A',
     margin: 'auto',
-    "&:hover": {
-       backgroundColor: "#495057",
-    },
+    // "&:hover": {
+    //    backgroundColor: "#495057",
+    // },
   },
   title: {
     textAlign: 'center',
-    color: '#fffffe',
+    // color: '#fffffe',
+    color: 'black',
     fontWeight:'600',
   },
   subheader: {
     textAlign: 'center',
-    color: '#94a1b2',
+    // color: '#94a1b2',
+    color: 'black',
     fontWeight:'300',
   },
   media: {
@@ -43,7 +46,8 @@ const useStyles = makeStyles((theme) => ({
   },
   buyButton: {
     margin: 'auto',
-    background: '#7f5af0',
+    // background: '#7f5af0',
+    background: 'black',
   }
 }));
 

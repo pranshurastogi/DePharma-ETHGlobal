@@ -12,16 +12,17 @@ const useStyles = makeStyles((theme) => ({
     '& > *': {
       margin: theme.spacing(3),
     },
-    "&:hover": {
-        backgroundColor: "#495057",
-     },
+    // "&:hover": {
+    //     backgroundColor: "#495057",
+    //  },
   },
   input: {
     display: 'none',
   },
   buyButton: {
     // margin: 'auto',
-    background: '#7f5af0',
+    // background: '#7f5af0',
+    background: 'black',
     // display: 'flex',
     // alignItems: 'center',
     // justifyContent: 'center',

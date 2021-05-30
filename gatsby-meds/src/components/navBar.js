@@ -13,8 +13,10 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        color: 'white',
-        backgroundColor: '#7f5af0',
+        // color: 'white',
+        // backgroundColor: '#7f5af0',
+        color: 'black',
+        backgroundColor: '#eedfcc',
     },
 }));
 
@@ -23,7 +25,7 @@ const NavBar = () => {
     const classes = useStyles();
 
     return(
-        <Box className={classes.root}><Typography color="inherit" align="center" style={{fontSize: 22}} >DePharma : A decentralized Pharmacy</Typography></Box>
+        <Box className={classes.root}><Typography color="inherit" align="center" style={{fontSize: 22, fontWeight: 'bold'}} >DePharma : A decentralized Pharmacy</Typography></Box>
     );
 
 }
