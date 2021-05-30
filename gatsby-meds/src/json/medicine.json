@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Albuterol",
+		"price": "0.01 ETH",
+		"uri": "QmZGGAMfaDL6MdGaNPtGTAj21hyPgkettucgg1KbYcb245"
+	},
+	{
+		"name": "Amlodipine",
+		"price": "0.05 ETH",
+		"uri": "Qmd6b2bfwkftYaXrbNDqxTeiuqyjrYRshz84WNLPjF61Qu"
+	},
+	{
+		"name": "Atorvastatin",
+		"price": "0.02 ETH",
+		"uri": "QmUA4h8wtGBf2mukUxumozT5Nr6QfdigCMhTFboK6ctuvA"
+	},
+	{
+		"name": "Levothyroxine",
+		"price": "0.06 ETH",
+		"uri": "QmccPaLACL7Q2yXrsxNm6vysBjNk1G1eB8PpbE7gbZ46Jj"
+	},
+	{
+		"name": "Lisinopril",
+		"price": "0.04 ETH",
+		"uri": "QmdDsCM7fuJTnYx5kpQRm7X7DyNByzdpzLXChLZqJLvK6A"
+	},
+	{
+		"name": "Losartan",
+		"price": "0.04 ETH",
+		"uri": "QmfEMmBVjXjt5S7sLnHGnkSqMqPXjoitgHbZoCxiPd2KmT"
+	},
+	{
+		"name": "Metformin",
+		"price": "0.03 ETH",
+		"uri": "QmXEPYBAhxFsY8uGz575KHFFNbJevspPxC23JuuzfUKLL4"
+	},
+	{
+		"name": "Metprolol",
+		"price": "0.02 ETH",
+		"uri": "QmYeaEarDv9BPr5x7dBuR5uqkpyPqhRiCCST3NBa942SQt"
+	}
+]
