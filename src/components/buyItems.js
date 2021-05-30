@@ -5,15 +5,13 @@ import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
-import { navigate } from "gatsby";
-// import { shadows } from "@material-ui/system";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '25vw',
-    height: '35vw',
-    // maxWidth: 280,
-    // maxHeight: 300,
+    // width: '16vw',
+    // height: '19vw',
+    maxWidth: 280,
+    maxHeight: 300,
     backgroundColor: '#242629',
     raised: true,
     // backgroundColor: '#16161A',
@@ -23,18 +21,15 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   title: {
-    textAlign: 'center',
     color: '#fffffe',
     fontWeight:'600',
   },
   subheader: {
-    textAlign: 'center',
     color: '#94a1b2',
     fontWeight:'300',
   },
   media: {
-    paddingTop: '80%',
-    // paddingTop: '56.25%', // 16:9
+    paddingTop: '56.25%', // 16:9
     objectFit: 'fit',
   },
   buyButton: {
@@ -43,16 +38,11 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const buyEquipments = () => {
-  // navigate('/equipments');
-  // console.log("Hello!");
-  if (typeof window !== "undefined") {
-    navigate(`/equipments`);
-  } 
-
+const buy = () => {
+  console.log("Clicking buy!");
 }
 
-export default function Equipments(props) {
+export default function BuyItems(props) {
   const classes = useStyles();
 
   return (
@@ -62,16 +52,16 @@ export default function Equipments(props) {
           title: classes.title,
           subheader: classes.subheader,
         }}
-        title={"Equipments"}
-        subheader={"Order your medical equipments"}
+        title={props.dataFromParent["name"]}
+        subheader={props.dataFromParent["price"]}
         color="#94a1b2"
       />
       <CardMedia
         className={classes.media}
-        image={"https://images.pexels.com/photos/5125690/pexels-photo-5125690.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"}
+        image={`https://ipfs.io/ipfs/${props.dataFromParent["uri"]}`}
       />
       <CardActions disableSpacing>
-        <Button variant="contained" color="primary" className={classes.buyButton} onClick={buyEquipments}>
+        <Button variant="contained" color="primary" className={classes.buyButton} onClick={buy}>
           Buy
         </Button>
       </CardActions>

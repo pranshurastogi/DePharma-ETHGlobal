@@ -48,7 +48,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const buyMedicines = () => {
-  navigate('/prescription');
+  // navigate('/medicine');
+
+  if (typeof window !== "undefined") {
+    navigate(`/medicine`)
+  }  
+
 }
 
 export default function Medicine(props) {
@@ -70,8 +75,8 @@ export default function Medicine(props) {
         image={"https://images.pexels.com/photos/208512/pexels-photo-208512.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"}
       />
       <CardActions disableSpacing>
-        <UploadButtons />
-        <Button variant="contained" color="primary" className={classes.buyButton} onClick={() => buyMedicines()}>
+        <UploadButtons showAlert={props.showAlert} />
+        <Button variant="contained" color="primary" className={classes.buyButton} onClick={buyMedicines}>
           Buy
         </Button>
       </CardActions>
