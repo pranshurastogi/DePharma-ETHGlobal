@@ -10,7 +10,7 @@ DePharma is an ecosystem for providing, scheduling and processing vaccines, drug
 
 DePharma is an ecosystem with the following features -
 
-1. Vaccine store- Buy vaccine using unlock protocol.
+1. Vaccine store- Using Unlock Protocol to buy vaccine.
 2. Consult a doc - With decentralised storage system like IPFS and Live peer, interact with doctor and be the owner of your documents solely. After the successful prescription, you can buy the prescribed drugs from the platform.
 3. Buy the essential healthcare equipments - Marketplace to buy the essential equipments like  [Masks, Face shield, Gloves, etc.]
 4. Fundraising raffle - Create raffle fundraising event with POAP.
